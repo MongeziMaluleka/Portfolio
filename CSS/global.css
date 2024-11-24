@@ -1,0 +1,11 @@
+/* import google fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+
+
+body {
+    font: Ariel, sans-serif;
+    background-color: rgba(189, 128, 189, 0.6);
+    color:rgb(65, 4, 51);
+    margin: 0;
+}

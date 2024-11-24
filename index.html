@@ -10,7 +10,8 @@
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="global.css">
+
 </head>
 
 <body>
@@ -30,7 +31,7 @@
     </header>
 
     <!-- About Section -->
-    <section class="about">
+    <section id="about" class="about">
         <div class="about-text">
             <h2>Hello I'm Mongezi <i class="ph-bold ph-waving"></i></h2>
 
@@ -42,37 +43,35 @@
             </p>
 
              <div class="about-btn">
-                <a href="#" class="btn">Contact Details</a>
+                <a href="#contact" class="btn">Contact Details</a>
                 <a href="#" class="btn">View CV <i class="ph ph-read-cv-logo"></i></a>
              </div>   
         </div>  
         
         <div class="home-img">
-            <img src="images/mongezi_.jpeg" alt="Mongezi Maluleka"/>
+            <img src="images/mongezi_.jpeg" alt="Picture of Mongezi Maluleka"/>
         </div>
     </section>    
 
     <!-- Skills Section-->
-    <section class="skills">
-        <div class="skills-text">
-            <h2>Skills</h2>
-            <ul>
-                <li><strong>Programming Languages:</strong> Python, Java, Javascript</li>
-                <li><strong>Web Development:</strong> HTML, CSS, SQL, AWS</li>
-                <li><strong>Tools:</strong> SQL , Git, GitHub</li>
-            </ul>
-        </div>   
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Programming Languages:</strong> Python, Java, Javascript</li>
+            <li><strong>Web Development:</strong> HTML, CSS, SQL, AWS</li>
+            <li><strong>Tools:</strong> SQL , Git, GitHub</li>
+        </ul>
     </section>     
     
     <!-- Projects Section -->
-    <section class="projects">
+    <section id="projects" class="projects">
         <h2>Projects</h2>
 
          <!-- CLUB CONNECT section-->
         <h3> CLUB CONNCECT</h3>
         <P> A community-driven platform connecting students at WeThinkCode_ through clubs and events, featuring multimedia, testimonials, and interactive components.</P>
         <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript, SQL, GitHub</p>
-        <a href="https://github.com/MongeziMaluleka/ClubConnect">View Project Repo</a>
+        <a href="https://github.com/MongeziMaluleka/ClubConnect" target="_blank">View Project Repo</a>
  
         <!-- CodSoft projects section-->
         <h3>CodSoft Internship - Python Projects</h3>
@@ -84,12 +83,12 @@
             <li><strong>Password Generator:</strong>Developed a random password generator with customizable length and character types.</li>
             <li><strong>Rock-Paper-Scissors Game:</strong> Designed an interactive game that lets users play against the computer.</li>
         </ul>
-        <a href="https://github.com/MongeziMaluleka/CODSOFT/tree/main">View CodSoft Projects</a>
+        <a href="https://github.com/MongeziMaluleka/CODSOFT/tree/main"target="_blank">View CodSoft Projects</a>
     </section>
 
 
     <!-- Certifications Sections-->
-    <section class="sololearn-certifications">
+    <section id="sololearn-certifications" class="sololearn-certifications">
        <h2>Sololearn Certifications</h2>
        <ul>
            <li>Introduction to Python</li>
@@ -99,7 +98,7 @@
     </section>   
 
     <!-- AWS Certifications and Badges Section -->  
-    <section class="aws-certifications">
+    <section id="aws-certifications" class="aws-certifications">
         <h2>AWS Training Certifications & Badges</h2>
         <p>As part of my cloud engineering elective, I’ve completed foundational AWS courses and earned badges in networking, security, and cloud services. I’m excited to integrate these skills into future projects.</p>
         <ul>
@@ -122,21 +121,22 @@
     </section>
 
     <!-- Contact details-->
-    <div class="social-icons">
+    <div id="social-icons">
         <h2> Contact info</h2>
         <p>Connect with me on LinkedIn, view my projects on GitHub, or email me directly:</p>
-        <a href="https://www.linkedin.com/in/mongezi-maluleka-813039189">
+        <a href="https://www.linkedin.com/in/mongezi-maluleka-813039189"target="_blank">
             <i class="ph-bold ph-Linkedin-logo"></i>
         </a>
-        <a href="https://github.com/MongeziMaluleka">
+        <a href="https://github.com/MongeziMaluleka"target="_blank">
             <i class="ph-bold ph-github-logo"></i>
         </a>
-        <a href="mailto:Mongeziimaluleka@gmail.com">
+        <a href="mailto:Mongeziimaluleka@gmail.com"target="_blank">
             <i class="ph-bold ph-email-logo"></i>
         </a>
     </div>
-
-    <a href="#" class="scroll-btn">
+    
+    <!-- scroll down button -->
+    <a href="#about" class="scroll-btn">
         Scroll down
         <i class="ph-bold ph-arrow-bend-right-down"></i>
     </a>
