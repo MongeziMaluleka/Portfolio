@@ -2,143 +2,131 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Mongezi Maluleka - Tech Portfolio</title>
+    <title>Mongezi Maluleka - Tech Portfolio</title>
 
-    <!-- Phosphor Icons -->
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/Portfolio/CSS/global.css">
-
+    <!-- <link rel="stylesheet" href="styles.css"> -->
 </head>
 
 <body>
     <!-- Header Section-->
-    <header>
-        <a href="#" class="logo"> mmaluleka </a>
-
-        <!-- Navigation Links to scroll to different sections-->
-        <ul class="navmenu">
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#certifications">Certifications</a></li>
-            <li><a href="#aws-certifications">AWS Certifications & Badges</a></li>
-            <li><a href="#contact">Contact Details</a></li>
-        </ul>
+    <header class="bg-dark text-white py-3 sticky-top">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="#" class="logo text-white text-uppercase fs-4 fw-bold">mmaluleka</a>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a href="#about" class="nav-link text-white">About Me</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link text-white">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link text-white">Projects</a></li>
+                    <li class="nav-item"><a href="#certifications" class="nav-link text-white">Certifications</a></li>
+                    <li class="nav-item"><a href="#hackathons" class="nav-link text-white">Hackathons</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link text-white">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <!-- About Section -->
-    <section id="about" class="about">
-        <div class="about-text">
-            <h2>Hello I'm Mongezi <i class="ph-bold ph-waving"></i></h2>
-
-            <h3>Software Engineering Student</h3>
-        
-            <p> I'm a Software Engineering Student at WeThinkCode_, passionate about creating digital solutions that make an impact.
-                With foundational training in cloud computing and a stronger background in Python, Java, and web development,
-                I aim to bridge Software Engineering with advanced cloud envirnoments.
-            </p>
-
-             <div class="about-btn">
-                <a href="#contact" class="btn">Contact Details</a>
-                <a href="/Portfolio/Mongezi_Maluleka_cv.pdf" class="btn">View CV <i class="ph ph-read-cv-logo"></i></a>
-             </div>   
-        </div>  
-        
-        <div class="home-img">
-            <img src="images/mongezi_.jpeg" alt="Picture of Mongezi Maluleka"/>
+    <section id="about" class="section py-5" data-aos="fade-up">
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>Hello, I'm Mongezi <i class="ph-bold ph-waving"></i></h2>
+                    <h3 class="text-primary">Software Engineering Student</h3>
+                    <p>
+                        I'm a Software Engineering Student at WeThinkCode_, passionate about creating digital solutions
+                        that make an impact. I specialize in Python, Java, web development, and cloud computing.
+                    </p>
+                    <a href="#contact" class="btn btn-primary me-2">Contact Me</a>
+                    <a href="/Portfolio/mmaluleka_cv.pdf" class="btn btn-outline-primary">Download CV</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/mongezi_.jpeg" alt="Mongezi Maluleka" class="img-fluid rounded-circle shadow-lg">
+                </div>
+            </div>
         </div>
-    </section>    
+    </section>
 
-    <!-- Skills Section-->
-    <section id="skills" class="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li><strong>Programming Languages:</strong> Python, Java, Javascript</li>
-            <li><strong>Web Development:</strong> HTML, CSS, SQL, AWS</li>
-            <li><strong>Tools:</strong> SQL , Git, GitHub</li>
-        </ul>
-    </section>     
-    
+    <!-- Skills Section -->
+    <section id="skills" class="section py-5 bg-light" data-aos="fade-right">
+        <div class="container text-center">
+            <h2>Skills</h2>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Programming Languages: Python, Java, JavaScript</li>
+                <li class="list-group-item">Web Development: HTML, CSS, SQL, AWS</li>
+                <li class="list-group-item">Tools: Git, Docker, IntelliJ</li>
+            </ul>
+        </div>
+    </section>
+
     <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <h2>Projects</h2>
-
-         <!-- CLUB CONNECT section-->
-        <h3> CLUB CONNCECT</h3>
-        <P> A community-driven platform connecting students at WeThinkCode_ through clubs and events, featuring multimedia, testimonials, and interactive components.</P>
-        <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript, SQL, GitHub</p>
-        <a href="https://github.com/MongeziMaluleka/ClubConnect" target="_blank">View Project Repo</a>
- 
-        <!-- CodSoft projects section-->
-        <h3>CodSoft Internship - Python Projects</h3>
-        <p> During my CodSoft Python Internship, I developed various small projects to enhance my programming skills and problem-solving abilities. </p>
-        <p><strong>Technologies Used:</strong> Python</p>
-        <ul>
-            <li><strong>To-Do List:</strong>Created a task management app with add, remove, and update features.</li>
-            <li><strong>Calculator:</strong>Built a basic calculator with functions for addition, subtraction, multiplication, and division.</li>
-            <li><strong>Password Generator:</strong>Developed a random password generator with customizable length and character types.</li>
-            <li><strong>Rock-Paper-Scissors Game:</strong> Designed an interactive game that lets users play against the computer.</li>
-        </ul>
-        <a href="https://github.com/MongeziMaluleka/CODSOFT/tree/main"target="_blank">View CodSoft Projects</a>
+    <section id="projects" class="section py-5" data-aos="zoom-in">
+        <div class="container">
+            <h2 class="text-center">Projects</h2>
+            <div class="card mx-auto" style="max-width: 30rem;">
+                <div class="card-body text-center">
+                    <h3 class="card-title">ClubConnect</h3>
+                    <p class="card-text">A platform connecting students at WeThinkCode_ through clubs and events.</p>
+                    <a href="https://github.com/MongeziMaluleka/ClubConnect" target="_blank" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+        </div>
     </section>
 
-
-    <!-- Certifications Sections-->
-    <section id="sololearn-certifications" class="sololearn-certifications">
-       <h2>Sololearn Certifications</h2>
-       <ul>
-           <li>Introduction to Python</li>
-           <li>Introduction to Html</li>
-           <li>Introduction to Java</li>
-       </ul>
-    </section>   
-
-    <!-- AWS Certifications and Badges Section -->  
-    <section id="aws-certifications" class="aws-certifications">
-        <h2>AWS Training Certifications & Badges</h2>
-        <p>As part of my cloud engineering elective, I’ve completed foundational AWS courses and earned badges in networking, security, and cloud services. I’m excited to integrate these skills into future projects.</p>
-        <ul>
-            <li><strong>AWS Cloud Basics</strong></li>
-            <li><strong>Advanced Cloud Services</strong></li>
-            <li><strong>Becoming a Cloud Practitioner Lab Session</strong></li>
-            <li><strong>Building a Cloud Career</strong></li>
-            <li><strong>Compute, Networking, and Account Strategies</strong></li>
-            <li><strong>Computer & Network Hardware</strong></li>
-            <li><strong>Demystifying Generative AI</strong></li>
-            <li><strong>Exam Prep - AWS Certified Cloud Practitioner (CLF-C02)</strong></li>
-            <li><strong>Identities, Security, and Monitoring the AWS Cloud</strong></li>
-            <li><strong>Introduction to the AWS Cloud</strong></li>
-            <li><strong>Job Roles in the Cloud</strong></li>
-            <li><strong>Networking</strong></li>
-            <li><strong>Security</strong></li>
-            <li><strong>Storage and Databases</strong></li>
-            <li><strong>Why Get AWS Certified?</strong></li>
-        </ul>
+    <!-- Certifications Section -->
+    <section id="certifications" class="section py-5 bg-light" data-aos="fade-up">
+        <div class="container">
+            <h2 class="text-center">Certifications</h2>
+            <div class="d-flex justify-content-center gap-3 flex-wrap">
+                <img src="images/python-cert.png" alt="Python Certification" class="img-thumbnail" style="width: 150px;">
+                <img src="images/html-cert.png" alt="HTML Certification" class="img-thumbnail" style="width: 150px;">
+                <img src="images/java-cert.png" alt="Java Certification" class="img-thumbnail" style="width: 150px;">
+            </div>
+        </div>
     </section>
 
-    <!-- Contact details-->
-    <div id="social-icons">
-        <h2> Contact info</h2>
-        <p>Connect with me on LinkedIn, view my projects on GitHub, or email me directly:</p>
-        <a href="https://www.linkedin.com/in/mongezi-maluleka-813039189"target="_blank">
-            <i class="ph-bold ph-Linkedin-logo"></i>
-        </a>
-        <a href="https://github.com/MongeziMaluleka"target="_blank">
-            <i class="ph-bold ph-github-logo"></i>
-        </a>
-        <a href="mailto:Mongeziimaluleka@gmail.com"target="_blank">
-            <i class="ph-bold ph-email-logo"></i>
-        </a>
-    </div>
+    <!-- Hackathons Section -->
+    <section id="hackathons" class="section py-5" data-aos="fade-left">
+        <div class="container text-center">
+            <h2>Hackathons</h2>
+            <div class="d-flex justify-content-center gap-3 flex-wrap">
+                <img src="images/hackathon1.png" alt="Hackathon 1" class="img-thumbnail" style="width: 150px;">
+                <img src="images/hackathon2.png" alt="Hackathon 2" class="img-thumbnail" style="width: 150px;">
+                <img src="images/hackathon3.png" alt="Hackathon 3" class="img-thumbnail" style="width: 150px;">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section py-5 bg-light" data-aos="fade-up">
+        <div class="container text-center">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:mongeziimaluleka@gmail.com">mongeziimaluleka@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/MongeziMaluleka" target="_blank">MongeziMaluleka</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/mongezi-maluleka-813039189" target="_blank">Mongezi Maluleka</a></p>
+        </div>
+    </section>
+
+    <footer class="text-center bg-dark text-white py-3">
+        <p>© 2025 Mongezi Maluleka. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
     
-    <!-- scroll down button -->
-    <a href="#about" class="scroll-btn">
-        Scroll down
-        <i class="ph-bold ph-arrow-bend-right-down"></i>
-    </a>
+    <!-- AOS JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>
