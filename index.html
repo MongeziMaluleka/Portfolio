@@ -20,7 +20,7 @@
     <!-- Header Section-->
     <header class="bg-dark text-white py-3 sticky-top">
         <div class="container d-flex justify-content-between align-items-center">
-            <a href="#" class="logo text-white text-lowercase fs-4 fw-bold">mmaluleka</a>
+            <a href="#" class="logo text-white text-lowercase fs-4 fw-bold" >&#9888  UNDER CONSTRUCTION</a>
             <nav>
                 <ul class="nav">
                     <li class="nav-item"><a href="#about" class="nav-link text-white">About Me</a></li>
@@ -67,64 +67,197 @@
         </div>
     </section>
 
+
     <!-- Projects Section -->
     <section id="projects" class="section py-5" data-aos="zoom-in">
         <div class="container">
-            <h2 class="text-center">Projects</h2>
-            <div class="card mx-auto" style="max-width: 30rem;">
-                <div class="card-body text-center">
-                    <h3 class="card-title">ClubConnect</h3>
-                    <p class="card-text">A platform connecting students at WeThinkCode_ through clubs and events.</p>
-                    <a href="https://github.com/MongeziMaluleka/ClubConnect" target="_blank" class="btn btn-primary">View Project</a>
+            <h2 class="text-center mb-5">Projects</h2>
+            <!-- Projects Container -->
+            <div class="row g-4">
+                <!-- Project 1 -->
+                <div class="col-md-6" data-aos="fade-up">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">ClubConnect</h3>
+                            <p class="card-text">A platform connecting students at WeThinkCode_ through clubs and events.</p>
+                            <a href="https://github.com/MongeziMaluleka/ClubConnect" target="_blank" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Into The Void</h3>
+                            <p class="card-text">
+                                A JavaScript mini-game application where you dodge asteroids with your rocket!
+                            </p>
+                            <ul class="list-unstyled mb-3">
+                                <li>HTML5</li>
+                                <li>JavaScript</li>
+                                <li>jQuery</li>
+                                <li>Sass</li>
+                            </ul>
+                            <div>
+                                <a href="https://sharon-yi.com/intoTheVoid/" target="_blank" class="btn btn-primary me-2">View Live</a>
+                                <a href="https://github.com/sharon-yi/project3" target="_blank" class="btn btn-secondary">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
+
     <!-- Certifications Section -->
     <section id="certifications" class="section py-5 bg-light" data-aos="fade-up">
         <div class="container">
-            <h2 class="text-center">Certifications</h2>
-            <div class="d-flex justify-content-center gap-3 flex-wrap">
-                <img src="AWS_certificates/Advanced Cloud Services.png" alt="Python Certification" class="img-thumbnail" style="width: 150px;">
-                <img src="AWS_certificates/AWS Cloud Basics.png" alt="HTML Certification" class="img-thumbnail" style="width: 150px;">
-                <img src="AWS_certificates/Becoming a Cloud Practitioner Lab Session.png" alt="Java Certification" class="img-thumbnail" style="width: 150px;">
-                <img src="AWS_certificates/Building a Cloud Career.png" alt="HTML Certification" class="img-thumbnail" style="width: 150px;">
-                <img src="AWS_certificates/Compute, Networking, and Account Strategies.png" alt="Java Certification" class="img-thumbnail" style="width: 150px;">
-                <img src="AWS_certificates/Computer & Network Hardware.png" alt="HTML Certification" class="img-thumbnail" style="width: 150px;">
-                <img src="AWS_certificates/Demystifying Generative AI.png" alt="Java Certification" class="img-thumbnail" style="width: 150px;">               
-                <img src="AWS_certificates/Exam Prep - AWS Certified Cloud Practitioner (CLF-C02).png" alt="HTML Certification" class="img-thumbnail" style="width: 150px;">
-                <img src="AWS_certificates/Identities, Security, and Monitoring the AWS Cloud.png" alt="Java Certification" class="img-thumbnail" style="width: 150px;">
-                <img src="AWS_certificates/Introduction to the AWS Cloud.png" alt="HTML Certification" class="img-thumbnail" style="width: 150px;">
-                <img src="AWS_certificates/Job Roles in the Cloud.png" alt="Java Certification" class="img-thumbnail" style="width: 150px;">
-                <img src="AWS_certificates/Networking.png" alt="HTML Certification" class="img-thumbnail" style="width: 150px;">
-                <img src="AWS_certificates/Security.png" alt="Java Certification" class="img-thumbnail" style="width: 150px;">
-                <img src="AWS_certificates/Storage and Databases.png" alt="HTML Certification" class="img-thumbnail" style="width: 150px;">
+            <h2 class="text-center mb-4">Certifications</h2>
+            
+            <!-- Tabs Navigation -->
+            <ul class="nav nav-tabs justify-content-center mb-4" id="certificationsTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="aws-tab" data-bs-toggle="tab" data-bs-target="#aws" type="button" role="tab" aria-controls="aws" aria-selected="true">AWS Certificates</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="sololearn-tab" data-bs-toggle="tab" data-bs-target="#sololearn" type="button" role="tab" aria-controls="sololearn" aria-selected="false">Sololearn Certificates</button>
+                </li>
+            </ul>
+
+            <!-- Tabs Content -->
+            <div class="tab-content" id="certificationsTabContent">
+                <!-- AWS Certificates -->
+                <div class="tab-pane fade show active" id="aws" role="tabpanel" aria-labelledby="aws-tab">
+                    <div class="row g-3 justify-content-center">
+                        <!-- Mock AWS Certificates -->
+                        <div class="col-md-3">
+                            <img src="AWS_certificates/Networking.png" alt="HTML Certification" class="img-thumbnail" style="width: 150px;">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="AWS_certificates/Security.png" alt="Java Certification" class="img-thumbnail" style="width: 150px;">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="AWS_certificates/Storage and Databases.png" alt="HTML Certification" class="img-thumbnail" style="width: 150px;">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="AWS_certificates/AWS Cloud Basics.png" alt="HTML Certification" class="img-thumbnail" style="width: 150px;">
+                        </div>
+                        <div class="col-md-3">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="AWS_certificates/Identities, Security, and Monitoring the AWS Cloud.png" alt="Java Certification" class="img-thumbnail" style="width: 150px;">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="AWS_certificates/Demystifying Generative AI.png" alt="Java Certification" class="img-thumbnail" style="width: 150px;">               
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sololearn Certificates -->
+                <div class="tab-pane fade" id="sololearn" role="tabpanel" aria-labelledby="sololearn-tab">
+                    <div class="row g-3 justify-content-center">
+                        <!-- Mock Sololearn Certificates -->
+                        <div class="col-md-3">
+                            <img src="mock-images/sololearn-cert1.png" alt="Sololearn Certificate 1" class="img-thumbnail">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="mock-images/sololearn-cert2.png" alt="Sololearn Certificate 2" class="img-thumbnail">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="mock-images/sololearn-cert3.png" alt="Sololearn Certificate 3" class="img-thumbnail">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
+
+
     <!-- Hackathons Section -->
-    <section id="hackathons" class="section py-5" data-aos="fade-left">
+    <section id="hackathons" class="section py-5 bg-light" data-aos="fade-left">
         <div class="container text-center">
             <h2>Hackathons</h2>
-            <div class="d-flex justify-content-center gap-3 flex-wrap">
-                <img src="images/hackathon1.png" alt="Hackathon 1" class="img-thumbnail" style="width: 150px;">
-                <img src="images/hackathon2.png" alt="Hackathon 2" class="img-thumbnail" style="width: 150px;">
-                <img src="images/hackathon3.png" alt="Hackathon 3" class="img-thumbnail" style="width: 150px;">
+            <div class="mt-4">
+                <!-- Tabs -->
+                <ul class="nav nav-pills justify-content-center mb-3" id="hackathonTabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="telkom-tab" data-bs-toggle="pill" data-bs-target="#telkom" type="button" role="tab" aria-controls="telkom" aria-selected="true">
+                            TelkomLearn Hackathon
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="ethekwini-tab" data-bs-toggle="pill" data-bs-target="#ethekwini" type="button" role="tab" aria-controls="ethekwini" aria-selected="false">
+                            Ethekwini Hackathon
+                        </button>
+                    </li>
+                </ul>
+
+                <!-- Tab Content -->
+                <div class="tab-content" id="hackathonTabsContent">
+                    <!-- TelkomLearn Hackathon -->
+                    <div class="tab-pane fade show active" id="telkom" role="tabpanel" aria-labelledby="telkom-tab">
+                                        <div class="tab-pane fade show active" id="aws" role="tabpanel" aria-labelledby="aws-tab">
+
+                        <div class="d-flex justify-content-center gap-3 flex-wrap">
+                            <img src="images/telkom_learn_hackathon1.png" alt="TelkomLearn Hackathon 1" class="img-thumbnail" style="width: 150px;">
+                            <img src="images/telkom_learn_hackathon2.png" alt="TelkomLearn Hackathon 2" class="img-thumbnail" style="width: 150px;">
+                        </div>
+                    </div>
+
+                    <!-- Ethekwini Hackathon -->
+                    <div class="tab-pane fade" id="ethekwini" role="tabpanel" aria-labelledby="ethekwini-tab">
+                        <div class="d-flex justify-content-center gap-3 flex-wrap">
+                            <img src="images/ethekwini_hackathon1.png" alt="Ethekwini Hackathon 1" class="img-thumbnail" style="width: 150px;">
+                            <img src="images/ethekwini_hackathon2.png" alt="Ethekwini Hackathon 2" class="img-thumbnail" style="width: 150px;">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+
 
     <!-- Contact Section -->
     <section id="contact" class="section py-5 bg-light" data-aos="fade-up">
-        <div class="container text-center">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:mongeziimaluleka@gmail.com">mongeziimaluleka@gmail.com</a></p>
-            <p>GitHub: <a href="https://github.com/MongeziMaluleka" target="_blank">MongeziMaluleka</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/mongezi-maluleka-813039189" target="_blank">Mongezi Maluleka</a></p>
+        <div class="container">
+            <h2 class="text-center">Contact</h2>
+            <div class="row justify-content-center">
+                <!-- Contact Details -->
+                <div class="col-md-6 text-center mb-4">
+                    <p>Email: <a href="mailto:mongeziimaluleka@gmail.com">mongeziimaluleka@gmail.com</a></p>
+                    <p>GitHub: <a href="https://github.com/MongeziMaluleka" target="_blank">MongeziMaluleka</a></p>
+                    <p>LinkedIn: <a href="https://www.linkedin.com/in/mongezi-maluleka-813039189" target="_blank">Mongezi Maluleka</a></p>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="col-md-8">
+                    <form id="contactForm" action="send_email.php" method="POST">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required placeholder="Enter your name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required placeholder="Enter your email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" class="form-control" id="subject" name="subject" required placeholder="Enter the subject">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" required placeholder="Write your message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
+
 
     <footer class="text-center bg-dark text-white py-3">
         <p>© 2025 Mongezi Maluleka. All rights reserved.</p>
