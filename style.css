@@ -1,0 +1,85 @@
+
+/*<script>*/
+/*tailwind.config = {*/
+/*    theme: {*/
+/*    extend: {*/
+/*    colors: {*/
+/*    dark: '#121212',*/
+/*    darkSecondary: '#1E1E1E',*/
+/*    darkAccent: '#2D2D2D',*/
+/*    primary: '#6366F1',*/
+/*    secondary: '#4F46E5',*/
+/*    accent: '#8B5CF6',*/
+/*},*/
+/*fontFamily: {*/
+/*    sans: ['Poppins', 'sans-serif'],*/
+/*},*/
+/*}*/
+/*}*/
+/*}*/
+/*</script>*/
+
+/*<style>*/
+/* html {*/
+/*     scroll-behavior: smooth;*/
+/* }*/
+
+/*body {*/
+/*    font-family: 'Poppins', sans-serif;*/
+/*}*/
+
+/*.skill-icon {*/
+/*    transition: all 0.3s ease;*/
+/*}*/
+
+/*.skill-icon:hover {*/
+/*    transform: translateY(-5px);*/
+/*    filter: drop-shadow(0 10px 8px rgb(99 102 241 / 0.3));*/
+/*}*/
+
+/*.project-card:hover {*/
+/*    transform: translateY(-8px);*/
+/*}*/
+
+/*.certification-card:hover {*/
+/*    transform: scale(1.03);*/
+/*}*/
+
+/*.hackathon-card:hover {*/
+/*    transform: translateY(-5px);*/
+/*}*/
+
+/*.nav-link {*/
+/*    position: relative;*/
+/*}*/
+
+/*.nav-link::after {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    width: 0;*/
+/*    height: 2px;*/
+/*    bottom: -2px;*/
+/*    left: 0;*/
+/*    background-color: #6366F1;*/
+/*    transition: width 0.3s ease;*/
+/*}*/
+
+/*.nav-link:hover::after {*/
+/*    width: 100%;*/
+/*}*/
+
+/*.gradient-bg {*/
+/*    background: linear-gradient(135deg, #121212 0%, #1E1E1E 100%);*/
+/*}*/
+
+/*.gradient-accent {*/
+/*    background: linear-gradient(135deg, #6366F1 0%, #8B5CF6 100%);*/
+/*}*/
+
+/*.gradient-text {*/
+/*    background: linear-gradient(to right, #6366F1, #8B5CF6);*/
+/*    -webkit-background-clip: text;*/
+/*    background-clip: text;*/
+/*    color: transparent;*/
+/*}*/
+/*</style>*/
