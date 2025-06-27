@@ -236,35 +236,39 @@
                         Passionate about cloud technology, creative problem-solving, and continuous growth in the tech industry.
                     </p>
                     <div class="flex flex-wrap gap-3">
-                        <a href="#" class="px-5 py-2 bg-gray text-primary font-medium rounded-lg hover:bg-gray-100 transition-colors hover:scale-105">
+                        <a href="https://www.canva.com/design/DAGnhLFhwbY/EGB0bNchiay8XOSjzzk9uQ/view?utm_content=DAGnhLFhwbY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h892426f626" class="px-5 py-2 bg-gray text-primary font-medium rounded-lg hover:bg-gray-100 transition-colors hover:scale-105">
                             <i class="fas fa-file-alt mr-2"></i> Resume
                         </a>
-                        <a href="#" class="px-5 py-2 bg-gray-800 text-white font-medium rounded-lg hover:bg-gray-700 transition-colors hover:scale-105">
+                        <a href="https://github.com/MongeziMaluleka" class="px-5 py-2 bg-gray-800 text-white font-medium rounded-lg hover:bg-gray-700 transition-colors hover:scale-105">
                             <i class="fab fa-github mr-2"></i> GitHub
                         </a>
-                        <a href="#" class="px-5 py-2 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors hover:scale-105">
+                        <a href="https://drive.google.com/file/d/1r55gkXOEA8EuPM4ilim-5YVmUyTBzBKN/view?usp=drive_link" class="px-5 py-2 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors hover:scale-105">
                             <i class="fab fa-linkedin mr-2"></i> LinkedIn
                         </a>
                     </div>
                 </div>
 
-                <!-- Video Content -->
-                <div class="md:w-1/2 order-1 md:order-2">
-                    <div class="video-container relative w-full max-w-lg mx-auto">
-                        <!-- Transparent background effect - video should have transparent background -->
-                        <video controls class="w-full h-auto rounded-lg" style="background: transparent;">
-                            <source src="Vids/Copy%20of%20Mongezi%20Maluleka.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                        <!-- Optional: Add a play button overlay for better UX -->
-                        <div class="play-button-overlay absolute inset-0 flex items-center justify-center opacity-70 hover:opacity-100 transition-opacity">
-                            <div class="play-icon w-16 h-16 bg-white bg-opacity-20 rounded-full flex items-center justify-center backdrop-filter backdrop-blur-sm">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
+                <!-- Responsive Video Container -->
+                <div class="relative w-full overflow-hidden rounded-lg shadow-lg aspect-video bg-neutral-100">
+                    <!-- Google Drive Video Embed -->
+                    <iframe
+                            src="https://drive.google.com/file/d/1r55gkXOEA8EuPM4ilim-5YVmUyTBzBKN/preview"
+                            class="absolute top-0 left-0 w-full h-full border-0"
+                            allow="autoplay; fullscreen"
+                            loading="lazy"
+                            title="Video Presentation"
+                            aria-label="Embedded video content"
+                            allowfullscreen
+                    >
+                        <!-- Fallback text for unsupported browsers -->
+                        <p class="p-4 text-center">Your browser does not support embedded videos.
+                            <a href="https://drive.google.com/file/d/1r55gkXOEA8EuPM4ilim-5YVmUyTBzBKN/view"
+                               class="text-blue-600 hover:underline"
+                               target="_blank">
+                                Open video in new tab
+                            </a>
+                        </p>
+                    </iframe>
                 </div>
             </div>
         </div>
@@ -433,7 +437,7 @@
     </div>
 </section>
 
-        <!-- Projects Section -->
+<!-- Projects Section -->
 <section id="projects" class="py-16 bg-gray-900">
     <div class="container mx-auto px-4">
         <h2 class="text-3xl md:text-4xl font-bold text-white mb-12 text-center">My Projects</h2>
