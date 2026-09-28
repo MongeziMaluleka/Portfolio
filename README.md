@@ -1,79 +1,41 @@
-# 🌐 Mongezi Maluleka - Tech Portfolio
+# Mongezi Maluleka – portfolio
 
-Welcome to my personal tech portfolio! This project showcases my skills, certifications, projects, and hackathon experiences as a **Full Stack Developer** with a passion for **cloud technologies**, **web development**, and **collaboration**.
+Personal portfolio site for Mongezi Maluleka, Platform Engineer at Old Mutual South Africa, based in Durban.
 
-## 🚀 About Me
+Live site: https://mongezimaluleka.github.io/Portfolio/ (once GitHub Pages is switched on)
 
-I'm Mongezi Maluleka, a full-stack developer and graduate of WeThinkCode\_. I love building scalable applications, solving real-world problems, and contributing to tech communities. I have certifications in **Web Development**, **Microsoft Azure Fundamentals**, and **DevOps**. I enjoy working in remote teams and I'm always open to freelance opportunities and collaborations.
+## What's in it
 
-## 🌟 Features
+- Selected work (Old Mutual): a KYC onboarding platform (sole backend developer) and a Pan-African API developer portal (frontend developer)
+- Personal and study projects: ClubConnect, AniVault, Minesweeper and a UCOOK clone
+- Skills, background, and contact details
 
-* Mobile-responsive design using **Bootstrap 5**
-* Clean layout and smooth animations with **AOS.js**
-* Projects section with live demos and GitHub links
-* Certifications gallery (AWS & Sololearn)
-* Hackathon highlights
-* Contact form for direct communication
-* Links to LinkedIn, GitHub, and Resume
+## How it's built
 
-## 🛠️ Tech Stack
+Plain HTML, CSS and JavaScript with no build step or framework. The only external request is the
+Schibsted Grotesk font from Google Fonts.
 
-* **HTML5**, **CSS3**, **JavaScript**
-* **Bootstrap 5**
-* **Flask** (for backend in some projects)
-* **Python**
-* **AOS (Animate on Scroll)** for animations
+```
+index.html                 page content
+styles.css                 all styling
+script.js                  mobile menu, active nav link, footer year
+Mongezi_Maluleka_CV.pdf    CV linked from the page (add this yourself)
+images/mongezi.jpg         portrait
+images/projects/           project screenshots
+```
 
-## 📂 Projects
+## Run it locally
 
-Here are some of the projects featured on my portfolio:
+Open `index.html` in a browser, or use the VS Code Live Server extension.
 
-* **ClubConnect** – A platform for students to connect via clubs and events.
-* **AniVault** – A fun JavaScript-based asteroid dodging game.
-* **Weather App** – Displays real-time weather info based on user location.
+## Publish with GitHub Pages
 
-Each project includes:
+1. Push to the `master` branch of this repository.
+2. In the repository, go to **Settings > Pages**.
+3. Under **Build and deployment**, choose **Deploy from a branch**, then `master` and `/ (root)`.
 
-* Live demo (if available)
-* Source code on GitHub
-* Technologies used
+## Contact
 
-## 📜 Certifications
-
-The portfolio includes certifications such as:
-
-* **AWS Cloud Basics**
-* **AWS Security, Networking, and Databases**
-* **Sololearn Web and Programming Fundamentals**
-* **Demystifying Generative AI**
-
-## 🧠 Hackathons
-
-I’ve participated in:
-
-* **TelkomLearn Hackathon**
-* **Ethekwini Hackathon**
-
-Each section includes images from the events and brief overviews of our team contributions.
-
-## 📬 Contact Me
-
-* 📧 Email: [mongeziimaluleka@gmail.com](mailto:mongeziimaluleka@gmail.com)
-* 💼 LinkedIn: [linkedin.com/in/mongezi-maluleka-813039189](https://www.linkedin.com/in/mongezi-maluleka-813039189)
-* 🧑‍💻 GitHub: [github.com/MongeziMaluleka](https://github.com/MongeziMaluleka)
-
-## 📝 Resume
-
-View or download my resume [here](https://www.canva.com/design/DAGnhLFhwbY/EGB0bNchiay8XOSjzzk9uQ/view?utm_content=DAGnhLFhwbY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h892426f626).
-
-## 📌 Setup Instructions
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/MongeziMaluleka/portfolio.git
-   cd portfolio
-   ```
-
-2. Open `index.html` in a browser to view the portfolio locally.
-
+- Email: mongeziimaluleka@gmail.com
+- LinkedIn: https://www.linkedin.com/in/mongezi-maluleka-813039189
+- GitHub: https://github.com/MongeziMaluleka
